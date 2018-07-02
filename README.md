@@ -64,3 +64,5 @@ dao.connect()
 n = dao.insert_append(vals)
 dao.close()
 ```
+## yks.TableUpdater（SQLite3用）
+XMLで定義したテーブル及びインデックス定義とDBの内容を比較し、テーブルの追加／削除、カラムの追加／変更を行う（テーブル／カラムの変更は行わない）。また、本クラスを実行した場合、処理の開始前にバックアップを作成する。

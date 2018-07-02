@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ddl>
+ <table>
+  create table todo_group (
+    Group_id integer,
+    group_Name text,
+    memo char,
+    disp_no integer,
+    PRIMARY KEY(group_id)
+  )
+ </table>
+
+ <table>
+  create table todo (
+    task_id integer,
+    title text,
+    memo text,
+    group_id integer,
+    priority integer,
+    date_fm integer,
+    date_to integer,
+    disp_no integer,
+    parent_type text,
+    parent_id integer,
+    PRIMARY KEY(task_id)
+  )
+ </table>
+
+ <index>
+  create index todo_group_idx1 on todo_group (disp_no)
+ </index>
+</ddl>

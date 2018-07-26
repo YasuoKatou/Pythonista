@@ -534,7 +534,7 @@ if __name__ == "__main__":
 
   #todo テスト用DDL定義ファイルのパス
   xp = './test01/DDL.xml'
-  dp = './test01/xxxxDB'
+  dp = './test01/TodoDB'
   tu = SqliteTableUpdater(xp, dp)
   tu.execute()
   pass

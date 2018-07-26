@@ -1,4 +1,6 @@
 # -*- coding:utf-8 -*-
+import os
+from pathlib import Path
 '''
 '''
 def _b2s(v):
@@ -119,5 +121,20 @@ def decoRetToStr(func):
 def isiOs():
 	import sys
 	return sys.platform == 'ios'
+
+def getChildDirectories(path_root):
+	fpl = []
+	for w1 in os.listdir(path_root):
+		w2 = os.path.join(path_root, w1)
+		if os.path.isdir(w2): fpl.append(w2)
+	#print(fpl)
+	return fpl
+
+def getAbsolutePath(path):
+	if path.startswith('~'):
+		h = Path().home()
+		return str(h) + path[1:]
+	else:
+		return str(Path(path).absolute())
 
 #[EOF]

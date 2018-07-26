@@ -75,13 +75,13 @@ XMLで定義したテーブル及びインデックス定義とDBの内容を比
   ちなみに、
   DL（ipag00303.zipやipam00303.zip）したフォントファイルを解凍後、ReportLabでPDF出力はできた。
 
-  今回作成したPythonスクリプト
-  ・iOS/font_list2.py
+### 今回作成したPythonスクリプト
+#### iOS/font_list2.py
     利用可能なフォントの一覧を作成
-  ・iOS/font_list_pdf4.py
+#### iOS/font_list_pdf4.py
     利用可能なフォントの一覧を使ってPDF出力する。
-  実行結果サンプル
-  ・iOS/fonts_list4.pdf
+### 実行結果サンプル
+#### iOS/fonts_list4.pdf
     １ページ目にReportLabのサンプルを実行
     ２ページ目以降でフォントのサンプルを出力
     DLしたフォント（2種類）も出力しています(No16, 91)

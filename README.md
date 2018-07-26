@@ -77,7 +77,7 @@ XMLで定義したテーブル及びインデックス定義とDBの内容を比
 
   今回作成したPythonスクリプト
   ・iOS/font_list2.py
-   利用可能なフォントの一覧を作成
+    利用可能なフォントの一覧を作成
   ・iOS/font_list_pdf4.py
    利用可能なフォントの一覧を使ってPDF出力する。
   実行結果サンプル
@@ -85,5 +85,5 @@ XMLで定義したテーブル及びインデックス定義とDBの内容を比
     １ページ目にReportLabのサンプルを実行
     ２ページ目以降でフォントのサンプルを出力
     DLしたフォント（2種類）も出力しています(No16, 91)
-     Appendix A にReportLabで使用できないフォントファイルの一覧を出力（bad files）
-     Appendix B にPDF出力時にエラーになったフォントファイルの一覧を出力（error fits）
+    Appendix A にReportLabで使用できないフォントファイルの一覧を出力（bad files）
+    Appendix B にPDF出力時にエラーになったフォントファイルの一覧を出力（error fits）

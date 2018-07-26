@@ -79,7 +79,7 @@ XMLで定義したテーブル及びインデックス定義とDBの内容を比
   ・iOS/font_list2.py
     利用可能なフォントの一覧を作成
   ・iOS/font_list_pdf4.py
-   利用可能なフォントの一覧を使ってPDF出力する。
+    利用可能なフォントの一覧を使ってPDF出力する。
   実行結果サンプル
   ・iOS/fonts_list4.pdf
     １ページ目にReportLabのサンプルを実行
